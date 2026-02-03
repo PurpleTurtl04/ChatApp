@@ -13,8 +13,17 @@ export default function Hero() {
                         <button className='bg-white hover:bg-gray-200 transition duration-200 rounded-4xl px-12 py-4 text-chatappblue'>
                             Try It Free
                         </button>
-                        <button className='border rounded-4xl px-12 py-4 hover:bg-white hover:text-chatappblue transition duration-200'>
-                            Get a Demo
+                        {/* <button className='group relative overflow-hidden bg-white border-chatappblue rounded-4xl px-12 py-4 text-chatappblue'>
+                            <span className='absolute inset-0 w-0 bg-chatappblue transition-all duration-300 ease-out group-hover:w-full'></span>
+                            <span className='relative z-10 group-hover:text-white'>
+                                Try It Free
+                            </span>
+                        </button> */}
+                        <button className='group relative overflow-hidden border rounded-4xl px-12 py-4 text-white'>
+                            <span className='absolute inset-0 w-0 bg-white transition-all duration-300 ease-out group-hover:w-full'></span>
+                            <span className='relative z-10 group-hover:text-chatappblue'>
+                                Get a Demo
+                            </span>
                         </button>
                     </div>
                 </div>
