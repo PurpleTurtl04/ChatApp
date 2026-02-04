@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <div className='flex justify-between items-center pt-10 pb-36 xl:px-10 container mx-auto'>
+        <div className='flex justify-between items-center pt-10 md:pb-36 xl:px-10 container mx-auto'>
             <p className='font-poppins text-3xl'>
                 <span className='font-semibold'>chat</span>
                 <span className='font-extralight'>app</span>

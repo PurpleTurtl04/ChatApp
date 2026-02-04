@@ -1,8 +1,8 @@
 export default function SignUp() {
     return (
         <section className='bg-chatappblue/10 pt-31 pb-25'>
-            <div className='flex'>
-                <div className='w-1/2'>
+            <div className='flex flex-col md:flex-row'>
+                <div className='md:w-1/2'>
                     <img
                         className='lg:max-w-9/10'
                         src='src/assets/signup.png'
