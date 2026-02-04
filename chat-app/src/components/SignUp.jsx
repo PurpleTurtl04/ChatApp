@@ -17,11 +17,15 @@ export default function SignUp() {
                         Pricing plans that fit like a glove.
                     </p>
                     <div className='flex gap-8'>
-                        <button className='bg-chatappblue rounded-4xl px-11 py-4 text-white'>
-                            Try It Free
+                        <button className='group relative overflow-hidden bg-chatappblue rounded-4xl px-11 py-4 text-white transition duration-300'>
+                            <span class='absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300'></span>
+                            <span class='relative z-10'>Try It Free</span>
                         </button>
-                        <button className='border border-chatappblue text-chatappblue rounded-4xl px-11 py-4'>
-                            Get a Demo
+                        <button className='group relative overflow-hidden border-2 rounded-4xl px-12 py-4 text-chatappblue'>
+                            <span className='absolute inset-0 w-0 bg-chatappblue transition-all duration-300 ease-out group-hover:w-full'></span>
+                            <span className='relative z-10 group-hover:text-white'>
+                                Get a Demo
+                            </span>
                         </button>
                     </div>
                     <hr className='border-chatappgray/15 mt-23 mb-8 w-41' />
