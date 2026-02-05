@@ -12,10 +12,10 @@ export default function Hero() {
                         </h3>
                     </div>
                     <div className='flex justify-center md:justify-start gap-8'>
-                        <button className='bg-white hover:bg-gray-200 transition duration-200 rounded-4xl lg:px-12 px-6 py-4 text-chatappblue'>
+                        <button className='bg-white hover:bg-gray-200 transition duration-200 rounded-4xl px-11 py-4 text-chatappblue'>
                             Try It Free
                         </button>
-                        <button className='group relative overflow-hidden border-2 rounded-4xl lg:px-12 px-6 py-4 text-white'>
+                        <button className='group relative overflow-hidden border-2 rounded-4xl px-12 py-4 text-white'>
                             <span className='absolute inset-0 w-0 bg-white transition-all duration-300 ease-out group-hover:w-full'></span>
                             <span className='relative z-10 group-hover:text-chatappblue'>
                                 Get a Demo
