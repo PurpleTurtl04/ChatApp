@@ -1,16 +1,16 @@
 export default function SignUp() {
     return (
         <section className='bg-chatappblue/10 pt-15 pb-10 md:pt-31 md:pb-25'>
-            <div className='flex flex-col md:flex-row'>
-                <div className='md:w-1/2'>
+            <div className='flex flex-col items-center md:flex-row'>
+                <div className='sm:w-3/4 md:-ml-20 md:w-3/5 lg:w-1/2'>
                     <img
                         className='lg:max-w-9/10'
                         src='src/assets/signup.png'
                         alt='People in a coffee shop'
                     />
                 </div>
-                <div className='flex flex-col items-center md:mx-auto md:items-start md:justify-center'>
-                    <h2 className='font-poppins mt-6 mb-4 max-w-md text-center text-4xl font-medium md:mt-0 md:mb-8 md:text-left'>
+                <div className='mx-auto flex flex-col items-center lg:items-start lg:justify-center'>
+                    <h2 className='font-poppins mt-6 mb-4 max-w-md text-center text-4xl font-medium md:mt-0 md:mb-8 lg:text-left'>
                         Perfect Solution for Small Businesses
                     </h2>
                     <p className='text-chatappgray/70 mb-8 md:mb-15'>
@@ -28,14 +28,14 @@ export default function SignUp() {
                             </span>
                         </button>
                     </div>
-                    <hr className='border-chatappgray/15 mt-15 mb-8 w-41 md:mt-23' />
-                    <div className='flex flex-col gap-6 sm:flex-row'>
+                    <hr className='border-chatappgray/15 mt-10 mb-8 w-41 lg:mt-23' />
+                    <div className='flex flex-col items-center gap-6 lg:flex-row'>
                         <img
                             src='src/assets/stars.svg'
                             alt='star rating'
                             className='max-w-48'
                         />
-                        <p className='text-chatappgray/70 lg:max-w-68'>
+                        <p className='text-chatappgray/70 max-w-60 text-center lg:max-w-68 lg:text-left'>
                             <span className='font-bold'>5,200 businesses</span>{' '}
                             use ChatApp and they rate it as{' '}
                             <span className='font-bold'>5-stars</span>.
