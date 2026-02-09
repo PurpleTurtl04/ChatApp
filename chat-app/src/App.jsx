@@ -7,7 +7,7 @@ import SignUp from './components/SignUp';
 
 function App() {
     return (
-        <div className='font-roboto'>
+        <div className='font-roboto overflow-hidden'>
             <header className='bg-chatappblue text-white'>
                 <Navbar />
             </header>

@@ -11,7 +11,7 @@ export default function Mockup() {
                 mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
                 quis, sem. Nulla consequat massa.
             </p>
-            <div className='flex min-w-xl items-start overflow-auto'>
+            <div className='flex min-w-xl items-start'>
                 <img src='src/assets/mockup.jpg' alt='Chat App Mockup' />
             </div>
         </section>
