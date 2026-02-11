@@ -1,4 +1,4 @@
-export default function Footer() {
+function Footer() {
     return (
         <footer className='container mt-15 md:mt-22 mb-8 mx-auto'>
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between">
@@ -70,3 +70,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+export default Footer
