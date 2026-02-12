@@ -1,4 +1,4 @@
-export default function Mockup() {
+function Mockup() {
     return (
         <section className='container mt-15 mb-10 flex flex-col sm:mx-auto sm:items-center md:mt-23 md:mb-25'>
             <h2 className='font-poppins mb-5 text-center text-4xl font-medium md:mb-10'>
@@ -17,3 +17,5 @@ export default function Mockup() {
         </section>
     );
 }
+
+export default Mockup;

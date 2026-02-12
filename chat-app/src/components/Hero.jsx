@@ -1,4 +1,4 @@
-export default function Hero() {
+function Hero() {
     return (
         <section className='bg-chatappblue text-white'>
             <div className='container mx-auto flex flex-col-reverse items-center justify-around pb-20 md:flex-row md:pb-40'>
@@ -30,3 +30,5 @@ export default function Hero() {
         </section>
     );
 }
+
+export default Hero;

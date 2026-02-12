@@ -1,74 +1,113 @@
 function Footer() {
     return (
-        <footer className='container mt-15 md:mt-22 mb-8 mx-auto'>
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between">
+        <footer className='container mx-auto mt-15 mb-8 md:mt-22'>
+            <div className='flex flex-col justify-between gap-8 lg:flex-row lg:gap-0'>
                 <div className='flex flex-col items-center lg:items-start'>
-                    <p className='font-poppins text-chatappblue mb-1 lg:mb-4 text-xl'>
+                    <p className='font-poppins text-chatappblue mb-1 text-xl lg:mb-4'>
                         <span className='font-bold'>chat</span>
                         <span className='font-extralight'>app</span>
                     </p>
-                    <p className='text-chatappgray/70 max-w-40 text-sm text-center lg:text-left'>
+                    <p className='text-chatappgray/70 max-w-40 text-center text-sm lg:text-left'>
                         The last team chat you will ever need.
                     </p>
-                    {/* <p className='text-chatappgray/70 pt-63 text-xs'>
-                        © Copyright ChatApp Inc.
-                    </p> */}
                 </div>
-                <div className='flex flex-wrap gap-12 md:gap-30 justify-center sm:justify-end ml-8 sm:ml-0'>
-                    <div className='flex flex-col gap-3 basis-1/3 md:basis-auto'>
-                        <h3 className='font-poppins md:pb-2 text-lg'>Help</h3>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>Support</a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                <div className='ml-8 flex flex-wrap justify-center gap-12 sm:ml-0 sm:justify-end md:gap-30'>
+                    <div className='flex basis-1/3 flex-col gap-3 md:basis-auto'>
+                        <h3 className='font-poppins text-lg md:pb-2'>Help</h3>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
+                            Support
+                        </a>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             Knowledge base
                         </a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>Tutorials</a>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
+                            Tutorials
+                        </a>
                     </div>
-                    <div className='flex flex-col gap-3 basis-1/3 md:basis-auto'>
-                        <h3 className='font-poppins md:pb-2 text-lg'>Features</h3>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                    <div className='flex basis-1/3 flex-col gap-3 md:basis-auto'>
+                        <h3 className='font-poppins text-lg md:pb-2'>
+                            Features
+                        </h3>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             Screen Sharing
                         </a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             iOS & Android Apps
                         </a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             File Sharing
                         </a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             User Management
                         </a>
                     </div>
-                    <div className='flex flex-col gap-3 basis-1/3 md:basis-auto'>
-                        <h3 className='font-poppins md:pb-2 text-lg'>Company</h3>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>About Us</a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>Careers</a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                    <div className='flex basis-1/3 flex-col gap-3 md:basis-auto'>
+                        <h3 className='font-poppins text-lg md:pb-2'>
+                            Company
+                        </h3>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
+                            About Us
+                        </a>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
+                            Careers
+                        </a>
+                        <a
+                            href='#'
+                            className='text-chatappgray/70 hover:text-chatapporange text-xs transition duration-150'
+                        >
                             Contact Us
                         </a>
                     </div>
-                    <div className='flex flex-col gap-3 basis-1/3 md:basis-auto'>
-                        <h3 className='font-poppins md:pb-2 text-lg'>
+                    <div className='flex basis-1/3 flex-col gap-3 md:basis-auto'>
+                        <h3 className='font-poppins text-lg md:pb-2'>
                             Contact Us
                         </h3>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                        <p className='text-chatappgray/70 text-xs'>
                             info@chatapp.com
-                        </a>
-                        <a href="#" className='text-chatappgray/70 text-xs transition duration-150 hover:text-chatapporange'>
+                        </p>
+                        <p className='text-chatappgray/70 text-xs'>
                             1-800-200-300
-                        </a>
-                        <a href="#" className='text-chatappgray/70 max-w-24 text-xs transition duration-150 hover:text-chatapporange'>
+                        </p>
+                        <p className='text-chatappgray/70 max-w-24 text-xs'>
                             3500 Deer Creek Rd Palo Alto, CA
-                        </a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div>
-                <p className='text-chatappgray/70 text-center md:text-left pt-15 md:pt-48 text-xs'>
-                        © Copyright ChatApp Inc.
-                    </p>
+                <p className='text-chatappgray/70 pt-15 text-center text-xs md:pt-48 md:text-left'>
+                    © Copyright ChatApp Inc.
+                </p>
             </div>
         </footer>
     );
 }
 
-export default Footer
+export default Footer;

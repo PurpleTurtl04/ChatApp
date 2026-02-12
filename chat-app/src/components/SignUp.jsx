@@ -1,15 +1,15 @@
-export default function SignUp() {
+function SignUp() {
     return (
         <section className='bg-chatappblue/10 pt-15 pb-10 md:pt-31 md:pb-25'>
-            <div className='flex flex-col items-center lg:flex-row 3xl:container 3xl:mx-auto'>
-                <div className='sm:w-3/4 lg:-ml-20 3xl:mx-auto md:w-2/3 lg:w-3/5 xl:w-4xl'>
+            <div className='3xl:container 3xl:mx-auto flex flex-col items-center lg:flex-row'>
+                <div className='3xl:mx-auto sm:w-3/4 md:w-2/3 lg:-ml-20 lg:w-3/5 xl:w-4xl'>
                     <img
                         className='lg:max-w-9/10'
                         src='src/assets/signup.png'
                         alt='People in a coffee shop'
                     />
                 </div>
-                <div className='mx-auto flex flex-col items-center lg:items-start lg:justify-center xl:max-xl:'>
+                <div className='xl:max-xl: mx-auto flex flex-col items-center lg:items-start lg:justify-center'>
                     <h2 className='font-poppins mt-6 mb-4 max-w-md text-center text-4xl font-medium lg:mt-0 lg:mb-8 lg:text-left'>
                         Perfect Solution for Small Businesses
                     </h2>
@@ -29,7 +29,7 @@ export default function SignUp() {
                         </button>
                     </div>
                     <hr className='border-chatappgray/15 mt-10 mb-8 w-41 lg:mt-23' />
-                    <div className='flex flex-col items-center gap-2 lg:gap-6 lg:flex-row'>
+                    <div className='flex flex-col items-center gap-2 lg:flex-row lg:gap-6'>
                         <img
                             src='src/assets/stars.svg'
                             alt='star rating'
@@ -46,3 +46,5 @@ export default function SignUp() {
         </section>
     );
 }
+
+export default SignUp;
